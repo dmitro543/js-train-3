@@ -120,7 +120,8 @@ console.log("convertToExponential(42)", convertToExponential(42)); // Вивед
 
 function convertToFixed(num, precision) {
   // Використовуємо метод toFixed(), щоб конвертувати число в рядок з фіксованою кількістю знаків після коми
-  return num.toFixed(), precision.toFixed();
+  const convertToFixed = num.toFixed(precision);
+  return convertToFixed;
 }
 
 console.log("Завдання 10 ====================================");
@@ -130,7 +131,8 @@ console.log("convertToFixed(42.9876, 2)", convertToFixed(42.9876, 2)); // Вив
 
 function convertToString(num) {
   // Використовуємо метод toString(), щоб конвертувати число в рядок
-  return num.toString();
+  const convertToString = num.toString()
+  return convertToString;
 }
 
 console.log("Завдання 11 ====================================");
@@ -140,7 +142,8 @@ console.log("convertToString(42)", convertToString(42)); // Виведе "42"
 
 function convertToPrecision(num, precision) {
   // Використовуємо метод toPrecision(), щоб округлити число до вказаної довжини
-  return num.toPrecision(43), precision.toPrecision(43);
+  const convertToPrecision = num.toPrecision(precision);
+  return convertToPrecision;
 }
 
 console.log("Завдання 12 ====================================");
