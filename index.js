@@ -55,7 +55,8 @@ console.log(
 
 function isTooLarge(num) {
   // Перевіряємо, чи є число більшим за MAX_VALUE
-  return num > Number.MAX_VALUE;
+  if (isTooLarge = (num > Number.MAX_VALUE));
+  return isTooLarge;
 }
 
 console.log("Завдання 5 ====================================");
